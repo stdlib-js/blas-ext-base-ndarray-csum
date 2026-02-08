@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import csum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-csum@deno/mod.js';
+import csum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-csum@v0.1.1-deno/mod.js';
 ```
 
 #### csum( arrays )
@@ -95,7 +95,7 @@ import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@deno/mod.js';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import csum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-csum@deno/mod.js';
+import csum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-csum@v0.1.1-deno/mod.js';
 
 var xbuf = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
