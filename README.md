@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import csum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-csum@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-ndarray-csum/tags). For example,
+
+```javascript
 import csum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-csum@v0.1.1-deno/mod.js';
 ```
 
@@ -95,7 +100,7 @@ import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@deno/mod.js';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import csum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-csum@v0.1.1-deno/mod.js';
+import csum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-csum@deno/mod.js';
 
 var xbuf = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
