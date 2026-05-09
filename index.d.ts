@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,42 +16,36 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { complex64ndarray } from '@stdlib/types/ndarray';
+import { Complex64 } from '@stdlib/types/complex';
 
 /**
-* Compute the sum of all elements in a one-dimensional single-precision complex floating-point ndarray.
+* Computes the sum of all elements in a one-dimensional single-precision complex floating-point ndarray.
 *
-* @module @stdlib/blas-ext-base-ndarray-csum
+* ## Notes
+*
+* -   The function expects the following ndarrays:
+*
+*     -   a one-dimensional input ndarray.
+*
+* @param arrays - array-like object containing ndarrays
+* @returns sum
 *
 * @example
 * var Complex64Vector = require( '@stdlib/ndarray-vector-complex64' );
-* var csum = require( '@stdlib/blas-ext-base-ndarray-csum' );
 *
 * var x = new Complex64Vector( [ 1.0, 3.0, 4.0, 2.0 ] );
 *
 * var v = csum( [ x ] );
 * // returns <Complex64>[ 5.0, 5.0 ]
 */
-
-// MODULES //
-
-var join = require( 'path' ).join;
-var tryRequire = require( '@stdlib/utils-try-require' );
-var isError = require( '@stdlib/assert-is-error' );
-var main = require( './main.js' );
-
-
-// MAIN //
-
-var csum;
-var tmp = tryRequire( join( __dirname, './native.js' ) );
-if ( isError( tmp ) ) {
-	csum = main;
-} else {
-	csum = tmp;
-}
+declare function csum( arrays: [ complex64ndarray ] ): Complex64;
 
 
 // EXPORTS //
 
-module.exports = csum;
+export = csum;
