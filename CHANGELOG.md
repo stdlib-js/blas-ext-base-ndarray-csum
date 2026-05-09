@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-11)
+## Unreleased (2026-05-09)
 
 <section class="features">
 
@@ -22,6 +22,9 @@
 
 <details>
 
+-   [`09c6646`](https://github.com/stdlib-js/stdlib/commit/09c664695231fa2f5a248997e96b20de6a627c3c) - **docs:** fix return type _(by Athan Reines)_
+-   [`b490c62`](https://github.com/stdlib-js/stdlib/commit/b490c6253777ca912bb4838b20c2b5d87766dbb7) - **docs:** add notes _(by Athan Reines)_
+-   [`d9c7993`](https://github.com/stdlib-js/stdlib/commit/d9c7993df3cdfd035f4319e2704c03c4a6a465b7) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
 -   [`9260f31`](https://github.com/stdlib-js/stdlib/commit/9260f31994955a4c597080f7044d73f1f26ba856) - **feat:** add C implementation for `blas/ext/base/ndarray/csum` [(#10696)](https://github.com/stdlib-js/stdlib/pull/10696) _(by Kaustubh Patange, Athan Reines, stdlib-bot)_
 
 </details>
